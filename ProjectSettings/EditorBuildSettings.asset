@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Pause Buttom.unity
     guid: f0d371e29024f4b9e9698a9c8d08b873
+  - enabled: 1
+    path: Assets/Scenes/Settings.unity
+    guid: eede3e65a30974a04bb1b518bc5da642
   m_configObjects: {}
