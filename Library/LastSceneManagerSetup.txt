@@ -1,5 +1,9 @@
 sceneSetups:
-- path: Assets/Scenes/Play- Modes.unity
+<<<<<<< Updated upstream
+- path: Assets/Scenes/Settings.unity
+=======
+- path: Assets/Scenes/Pause Buttom.unity
+>>>>>>> Stashed changes
   isLoaded: 1
   isActive: 1
   isSubScene: 0
