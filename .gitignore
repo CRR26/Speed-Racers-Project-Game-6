@@ -1,7 +1,4 @@
 
-Library/ArtifactDB
-Library/ArtifactDB-lock
-Library/CurrentLayout-default.dwlt
-Library/SceneVisibilityState.asset
+*.dwlt
 Library/SourceAssetDB
-Library/SourceAssetDB-lock
+*.meta
