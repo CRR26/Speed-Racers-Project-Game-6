@@ -22,54 +22,54 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57490
+61520
 Successfully changed project path to: /Users/game556/Speed Racers Project Game 6
 Could not lock editor preferences. Preferences updates for this instance of Unity will not be saved./Users/game556/Speed Racers Project Game 6
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 24.96 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 24.15 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.27f1 (e759542391ea)
 [Subsystems] Discovering subsystems at path /Applications/2020.3.27f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/game556/Speed Racers Project Game 6/Assets
 GfxDevice: creating device client; threaded=0
-2024-11-07 13:29:44.023 Unity[99718:16804537] iMac preferred device: AMD Radeon Pro 5500 XT (high power)
-2024-11-07 13:29:44.023 Unity[99718:16804537] Metal devices available: 1
-2024-11-07 13:29:44.023 Unity[99718:16804537] 0: AMD Radeon Pro 5500 XT (high power)
-2024-11-07 13:29:44.025 Unity[99718:16804537] Using device AMD Radeon Pro 5500 XT (high power)
+2024-11-25 13:42:15.469 Unity[33769:1829773] iMac preferred device: AMD Radeon Pro 5500 XT (high power)
+2024-11-25 13:42:15.469 Unity[33769:1829773] Metal devices available: 1
+2024-11-25 13:42:15.469 Unity[33769:1829773] 0: AMD Radeon Pro 5500 XT (high power)
+2024-11-25 13:42:15.469 Unity[33769:1829773] Using device AMD Radeon Pro 5500 XT (high power)
 Initializing Metal device caps: AMD Radeon Pro 5500 XT
 Initialize mono
 Mono path[0] = '/Applications/2020.3.27f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56718
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56769
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/2020.3.27f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000466 seconds.
+Registered in 0.000431 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 23.53 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 23.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.516 seconds
+- Completed reload, in  0.514 seconds
 Domain Reload Profiling:
-	ReloadAssembly (516ms)
-		BeginReloadAssembly (39ms)
+	ReloadAssembly (514ms)
+		BeginReloadAssembly (37ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (412ms)
-			LoadAssemblies (38ms)
+		EndReloadAssembly (411ms)
+			LoadAssemblies (37ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (156ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (151ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (150ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (24ms)
+				RefreshPlugins (23ms)
 				BeforeProcessingInitializeOnLoad (7ms)
 				ProcessInitializeOnLoadAttributes (90ms)
 				ProcessInitializeOnLoadMethodAttributes (26ms)
@@ -79,43 +79,43 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001592 seconds.
+Registered in 0.001575 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.902 seconds
+- Completed reload, in  0.897 seconds
 Domain Reload Profiling:
-	ReloadAssembly (904ms)
-		BeginReloadAssembly (138ms)
+	ReloadAssembly (898ms)
+		BeginReloadAssembly (133ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
+			CreateAndSetChildDomain (26ms)
 		EndReloadAssembly (709ms)
-			LoadAssemblies (63ms)
+			LoadAssemblies (61ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (275ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (41ms)
+			RebuildScriptCaches (42ms)
 			SetupLoadedEditorAssemblies (237ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (41ms)
-				ProcessInitializeOnLoadAttributes (184ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (185ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.002698 seconds.
+Validating Project structure ... 0.002436 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.010525 seconds.
+Upgrading shader files ...0.010402 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -129,14 +129,14 @@ Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
 Initializing Unity extensions:
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.22 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1520 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 181.2 MB.
-System memory in use after: 180.4 MB.
+System memory in use before: 181.5 MB.
+System memory in use after: 180.6 MB.
 
 Unloading 83 unused Assets to reduce memory usage. Loaded Objects now: 1994.
-Total: 2.479899 ms (FindLiveObjects: 0.108084 ms CreateObjectMapping: 0.039244 ms MarkObjects: 1.934388 ms  DeleteObjects: 0.397152 ms)
+Total: 2.497856 ms (FindLiveObjects: 0.111513 ms CreateObjectMapping: 0.042336 ms MarkObjects: 1.955041 ms  DeleteObjects: 0.388354 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -150,97 +150,649 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Menu Screen.unity
-  artifactKey: Guid(3a3909fb0039d44f6bb4899c8e308d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Menu Screen.unity using Guid(3a3909fb0039d44f6bb4899c8e308d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84451f23a0da02f95429967bb2ec5abf') in 0.008435 seconds 
-  Import took 0.010131 seconds .
+  path: Assets/Scenes/Open World.unity
+  artifactKey: Guid(ee8a224c5db414f6a86f246b94d3d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Open World.unity using Guid(ee8a224c5db414f6a86f246b94d3d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd2cc9cf91535eea80068295a4a2a4b') in 0.009805 seconds 
+  Import took 0.012293 seconds .
 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001541 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.862 seconds
-Domain Reload Profiling:
-	ReloadAssembly (862ms)
-		BeginReloadAssembly (99ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (709ms)
-			LoadAssemblies (59ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (261ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (252ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (71ms)
-				ProcessInitializeOnLoadAttributes (168ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1500 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.4 MB.
-System memory in use after: 180.5 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1997.
-Total: 2.039251 ms (FindLiveObjects: 0.101493 ms CreateObjectMapping: 0.036752 ms MarkObjects: 1.889777 ms  DeleteObjects: 0.010612 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 121.677982 seconds.
-  path: Assets/Scenes/Pause Buttom.unity
-  artifactKey: Guid(f245e81894ba843a1a0f9f33ebdaa7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Pause Buttom.unity using Guid(f245e81894ba843a1a0f9f33ebdaa7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd944a4e0bc34c768ebc8a0ee84cfeadb') in 0.008262 seconds 
-  Import took 0.009930 seconds .
+  Time since last request: 443.163840 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.001016 seconds 
+  Import took 0.003538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 659.723124 seconds.
+  path: Assets/default_city_pack_1_industrial
+  artifactKey: Guid(8cbf3bec3a6187e4bbcb9f484659d579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial using Guid(8cbf3bec3a6187e4bbcb9f484659d579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11bd2f86182ae39a6bb4425e1668ded5') in 0.001264 seconds 
+  Import took 0.003064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.844348 seconds.
+  path: Assets/default_city_pack_1_industrial/assets
+  artifactKey: Guid(bcc0bbf924183e646b3d530f4b59a378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets using Guid(bcc0bbf924183e646b3d530f4b59a378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab54351781227547397dd9c30b6ab564') in 0.001538 seconds 
+  Import took 0.003469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.017084 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials
+  artifactKey: Guid(841f12d6791715e42a66958cdd6c73e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials using Guid(841f12d6791715e42a66958cdd6c73e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ede5553cde510ee34e57545daf6f73d') in 0.001360 seconds 
+  Import took 0.003298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.549915 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city
+  artifactKey: Guid(dec33bdcf58f1cc4bad5ad64f337101c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city using Guid(dec33bdcf58f1cc4bad5ad64f337101c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c31d61ccece5c878ee2cf6506a4c47c7') in 0.000947 seconds 
+  Import took 0.002832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.517374 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/city_decals/ct_graffiti_class_1_a.mat
+  artifactKey: Guid(aacd3624e8e2a3849821cb10a2053ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/city_decals/ct_graffiti_class_1_a.mat using Guid(aacd3624e8e2a3849821cb10a2053ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0937600c84778e870eb1d6cac5ab4e2d') in 0.858455 seconds 
+  Import took 0.862643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.560758 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_01_sp/build_hwr_01_sp_class_1_bc.mat
+  artifactKey: Guid(c7a936311790d4e4bb49d60cc366eb52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_01_sp/build_hwr_01_sp_class_1_bc.mat using Guid(c7a936311790d4e4bb49d60cc366eb52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa6c113ba2b7a9314d206ea4f35562b4') in 0.006693 seconds 
+  Import took 0.008866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_01_sp/build_hwr_01_sp_winlight_em.mat
+  artifactKey: Guid(97e4e5a423599aa4a8cf25ddf497a8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_01_sp/build_hwr_01_sp_winlight_em.mat using Guid(97e4e5a423599aa4a8cf25ddf497a8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34bb59bd86c9ef867241045ca7ceee56') in 0.005578 seconds 
+  Import took 0.007910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_01_sp/build_hwr_01_sp_detals_2_class_1_bc.mat
+  artifactKey: Guid(ebd10676453122241919af08085693de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_01_sp/build_hwr_01_sp_detals_2_class_1_bc.mat using Guid(ebd10676453122241919af08085693de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c2ede911ace42004f9b43a68c9ae2dd') in 0.006426 seconds 
+  Import took 0.008638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_01_sp/lod_build_hwr_01_sp_class_1_bc.mat
+  artifactKey: Guid(b6f9c9718122fe847af6a05fc274ed1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_01_sp/lod_build_hwr_01_sp_class_1_bc.mat using Guid(b6f9c9718122fe847af6a05fc274ed1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66821d0935bac89bdbdbb03cd1d02cc4') in 0.005688 seconds 
+  Import took 0.007729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_01_sp/build_hwr_01_sp_detals_class_1_bc.mat
+  artifactKey: Guid(92004fe434f99304b961ba2063244e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_01_sp/build_hwr_01_sp_detals_class_1_bc.mat using Guid(92004fe434f99304b961ba2063244e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c7319c944541e064862487ebf2f540') in 0.006528 seconds 
+  Import took 0.008490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_01_sp/build_hwr_01_sp_showcase_class_1_bc.mat
+  artifactKey: Guid(471b90110bd87d94297e26756590a483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_01_sp/build_hwr_01_sp_showcase_class_1_bc.mat using Guid(471b90110bd87d94297e26756590a483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb3582dcbd6b436076073bffd2e9834') in 0.005437 seconds 
+  Import took 0.007424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.183283 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_03_res/build_hwr_03_res_class_1_bc.mat
+  artifactKey: Guid(276d7cf0420e82047b08627884a7a38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_03_res/build_hwr_03_res_class_1_bc.mat using Guid(276d7cf0420e82047b08627884a7a38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb181837bccb875d32c55a062070f07c') in 0.006308 seconds 
+  Import took 0.008670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_03_res/build_hwr_03_res_detals_2_class_1_bc.mat
+  artifactKey: Guid(b23d0dcd1ef6f8a408abaf3b210c73fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_03_res/build_hwr_03_res_detals_2_class_1_bc.mat using Guid(b23d0dcd1ef6f8a408abaf3b210c73fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ecbcafefbda11bff107b561f7c5445') in 0.005147 seconds 
+  Import took 0.007233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_03_res/winlight_build_hwr_03_res_em.mat
+  artifactKey: Guid(b111ff3fd9b8dd8468f87f1d4e363258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_03_res/winlight_build_hwr_03_res_em.mat using Guid(b111ff3fd9b8dd8468f87f1d4e363258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e100c6dc28d0da98b4e5e9e34fe77888') in 0.006392 seconds 
+  Import took 0.008461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_03_res/build_hwr_03_res_detals_1_class_1_bc.mat
+  artifactKey: Guid(452927b6a5909e34cbecf5e43488c2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_03_res/build_hwr_03_res_detals_1_class_1_bc.mat using Guid(452927b6a5909e34cbecf5e43488c2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d64aa833b44c1d05873c91d76bcfac7') in 0.006097 seconds 
+  Import took 0.008106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_03_res/lod_df_ind_build_hwr_03_res_bc.mat
+  artifactKey: Guid(fe356cf3515679543a15bc95129a1612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_03_res/lod_df_ind_build_hwr_03_res_bc.mat using Guid(fe356cf3515679543a15bc95129a1612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559dfb36067303ff8e38ea552f53e1a6') in 0.005485 seconds 
+  Import took 0.007755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.486312 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_bank_06/build_06_hwr_bank_detals_1_class_1_bc.mat
+  artifactKey: Guid(7b6f6cb9797f184458858061b8e1c592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_bank_06/build_06_hwr_bank_detals_1_class_1_bc.mat using Guid(7b6f6cb9797f184458858061b8e1c592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc8cd9296f30db881b010e1deed87bc') in 0.006096 seconds 
+  Import took 0.008233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_bank_06/winlight_build_hwr_bank_06_em.mat
+  artifactKey: Guid(30dca69091f593148ab662f678f54a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_bank_06/winlight_build_hwr_bank_06_em.mat using Guid(30dca69091f593148ab662f678f54a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '349feddabfc7a726787d28ee9af73572') in 0.005519 seconds 
+  Import took 0.007814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_bank_06/build_06_hwr_bank_showcase_class_1_bc.mat
+  artifactKey: Guid(06541864c77611f4c86ef979d4393d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_bank_06/build_06_hwr_bank_showcase_class_1_bc.mat using Guid(06541864c77611f4c86ef979d4393d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd0a99e164332a37ce59552c2754670') in 0.007155 seconds 
+  Import took 0.009726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_bank_06/lod_df_ind_build_hwr_bank_06_bc.mat
+  artifactKey: Guid(4ef347f29212bc848af3ba3d95dc2fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_bank_06/lod_df_ind_build_hwr_bank_06_bc.mat using Guid(4ef347f29212bc848af3ba3d95dc2fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df4b2c2f4b598bf7c10a5758488be11') in 0.006655 seconds 
+  Import took 0.009076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_bank_06/build_06_hwr_bank_facade_class_1_bc.mat
+  artifactKey: Guid(ea65f1f74f64fec4d9b0d80867920b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_bank_06/build_06_hwr_bank_facade_class_1_bc.mat using Guid(ea65f1f74f64fec4d9b0d80867920b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a5ef5eaea8bb83b932fb17f600700b') in 0.005352 seconds 
+  Import took 0.007239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.645121 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/roads
+  artifactKey: Guid(376ce53c9ddbacd4fad31ac8f83adb98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/roads using Guid(376ce53c9ddbacd4fad31ac8f83adb98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a3dd5f77d99cecc291ceaea1d4c8526') in 0.001901 seconds 
+  Import took 0.003821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059084 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/roads/ct_road_cracks_decals_1.mat
+  artifactKey: Guid(1d743b075bfb20041ae6690f4cd081d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/roads/ct_road_cracks_decals_1.mat using Guid(1d743b075bfb20041ae6690f4cd081d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ab6b3f5dc82302d3cd03e0c37dd517') in 0.006009 seconds 
+  Import took 0.008127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/roads/lod_road_pavment_st_1_class_1.mat
+  artifactKey: Guid(b4da61b7596f47f4a9287166a47eaf7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/roads/lod_road_pavment_st_1_class_1.mat using Guid(b4da61b7596f47f4a9287166a47eaf7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d38bf3a96b57ad6a0b600eb63620cbc') in 0.006240 seconds 
+  Import took 0.008245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/roads/road_asphalt_st_1_class_1.mat
+  artifactKey: Guid(bd3d6ecac28fca54c8825eee2125091d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/roads/road_asphalt_st_1_class_1.mat using Guid(bd3d6ecac28fca54c8825eee2125091d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf0ed32dd3e59e638d398c52f77191a') in 0.005280 seconds 
+  Import took 0.007426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/roads/ct_road_sewer_decals_2.mat
+  artifactKey: Guid(a4470cf9c4a4ded47b75b143e6fd300b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/roads/ct_road_sewer_decals_2.mat using Guid(a4470cf9c4a4ded47b75b143e6fd300b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35218e98403cf6d105bdf3fb8b204bab') in 0.005278 seconds 
+  Import took 0.007162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/roads/road_asphalt_st_2_class_1.mat
+  artifactKey: Guid(1c04e7ed84d2b9044a18c912c4a90ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/roads/road_asphalt_st_2_class_1.mat using Guid(1c04e7ed84d2b9044a18c912c4a90ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '541f374d7ab2742c63dbb565b7e93b88') in 0.005163 seconds 
+  Import took 0.006931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/roads/ct_road_sewer_decals_1.mat
+  artifactKey: Guid(9e02a2121ecc12e468fdbaad94e07c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/roads/ct_road_sewer_decals_1.mat using Guid(9e02a2121ecc12e468fdbaad94e07c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27f840f00b9a180345cc6bf1d4841e68') in 0.005648 seconds 
+  Import took 0.007516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/roads/road_pavment_st_1_class_1.mat
+  artifactKey: Guid(c96714c73fd4b01418dee2d4428bf800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/roads/road_pavment_st_1_class_1.mat using Guid(c96714c73fd4b01418dee2d4428bf800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1b25779c717e9043eb5f5019ac2480') in 0.005847 seconds 
+  Import took 0.007798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/roads/ct_road_markings_class.mat
+  artifactKey: Guid(2c06b8f7dc23e7f48908ab9a4fe960e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/roads/ct_road_markings_class.mat using Guid(2c06b8f7dc23e7f48908ab9a4fe960e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf81373e640aad0062d4e6c6c22e523e') in 0.005871 seconds 
+  Import took 0.008192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/roads/st_road_lod_class_1.mat
+  artifactKey: Guid(a30c72f51dfcdfd4b9ad1e230a5d1aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/roads/st_road_lod_class_1.mat using Guid(a30c72f51dfcdfd4b9ad1e230a5d1aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c7b066b01e05baa9cce45fbc7a02b4') in 0.005340 seconds 
+  Import took 0.007368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/roads/road_splodge_decals.mat
+  artifactKey: Guid(1ffea59a805754949ad59acc3312f992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/roads/road_splodge_decals.mat using Guid(1ffea59a805754949ad59acc3312f992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dfe56e5bbd50c9f9f8ea7cede85ab92') in 0.005587 seconds 
+  Import took 0.007469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.194850 seconds.
+  path: Assets/Art/ARCADE - FREE Racing Car/Prefabs (Meshes Only)
+  artifactKey: Guid(87eba6af4c0e3ef4592345ff00d6be5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/ARCADE - FREE Racing Car/Prefabs (Meshes Only) using Guid(87eba6af4c0e3ef4592345ff00d6be5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f9479249950a73d19758482c33a513e') in 0.000950 seconds 
+  Import took 0.002828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070083 seconds.
+  path: Assets/Art/ARCADE - FREE Racing Car/Prefabs (Meshes Only)/Free Racing Car Blue Variant.prefab
+  artifactKey: Guid(a9cbfe7195f75844aa7ec0619ca7616f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/ARCADE - FREE Racing Car/Prefabs (Meshes Only)/Free Racing Car Blue Variant.prefab using Guid(a9cbfe7195f75844aa7ec0619ca7616f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3571e3ccdeb25e64613674b9a56ec322') in 0.759933 seconds 
+  Import took 0.763917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Art/ARCADE - FREE Racing Car/Prefabs (Meshes Only)/Free Racing Car.prefab
+  artifactKey: Guid(c4cad50aa03bbca42938fe318344950b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/ARCADE - FREE Racing Car/Prefabs (Meshes Only)/Free Racing Car.prefab using Guid(c4cad50aa03bbca42938fe318344950b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9169d5b24cb344642f663f6eded9eefa') in 0.010619 seconds 
+  Import took 0.012958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Art/ARCADE - FREE Racing Car/Prefabs (Meshes Only)/Free Racing Car Gray Variant.prefab
+  artifactKey: Guid(f430073c636116b4b9c0f5e6ddcde097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/ARCADE - FREE Racing Car/Prefabs (Meshes Only)/Free Racing Car Gray Variant.prefab using Guid(f430073c636116b4b9c0f5e6ddcde097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ccfdad9ea95c0259e28ef17f866735') in 0.012703 seconds 
+  Import took 0.014775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Art/ARCADE - FREE Racing Car/Prefabs (Meshes Only)/Free Racing Car Purple Variant.prefab
+  artifactKey: Guid(98c57f100a7d7684dba02b8725bbc5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/ARCADE - FREE Racing Car/Prefabs (Meshes Only)/Free Racing Car Purple Variant.prefab using Guid(98c57f100a7d7684dba02b8725bbc5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec69e88c7cf8dac146073ea1215775e') in 0.010786 seconds 
+  Import took 0.012905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Art/ARCADE - FREE Racing Car/Prefabs (Meshes Only)/Free Racing Car Red Variant.prefab
+  artifactKey: Guid(a82f70a5f0178974093910fc6fd84c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/ARCADE - FREE Racing Car/Prefabs (Meshes Only)/Free Racing Car Red Variant.prefab using Guid(a82f70a5f0178974093910fc6fd84c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2004116c81ac4ab1125d6b0c2e949a2e') in 0.011740 seconds 
+  Import took 0.013840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.211066 seconds.
+  path: Assets/default_city_pack_1_industrial/documentation
+  artifactKey: Guid(120b19854c477a742806c31fd13ddd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/documentation using Guid(120b19854c477a742806c31fd13ddd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c986440f2f03d92ab59bfd688ee9f58c') in 0.001075 seconds 
+  Import took 0.002976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.300948 seconds.
+  path: Assets/default_city_pack_1_industrial/demo
+  artifactKey: Guid(17dfdc95d365fa64fa9d875990f0617d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/demo using Guid(17dfdc95d365fa64fa9d875990f0617d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ef5dc004c20bee9827b8c425e456352') in 0.001659 seconds 
+  Import took 0.003556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.109159 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/ind_blk_mainten/blk_mainten_decals_class_1_a.mat
+  artifactKey: Guid(ab07514ae73ac104a8bb08aba264fcb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/ind_blk_mainten/blk_mainten_decals_class_1_a.mat using Guid(ab07514ae73ac104a8bb08aba264fcb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4681864e28c6633d25642d5b9466b9d') in 0.008418 seconds 
+  Import took 0.010835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/ind_blk_mainten/ind_blk_3_mainten_class_1_bc.mat
+  artifactKey: Guid(6bd995a7856ea514da90aced6586e17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/ind_blk_mainten/ind_blk_3_mainten_class_1_bc.mat using Guid(6bd995a7856ea514da90aced6586e17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fee7b2611efad6e5725108ab43c413c') in 0.007505 seconds 
+  Import took 0.009455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/ind_blk_mainten/lod_blk_4_mainten_bc.mat
+  artifactKey: Guid(6848e5e1012aaeb4d866c275e1166092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/ind_blk_mainten/lod_blk_4_mainten_bc.mat using Guid(6848e5e1012aaeb4d866c275e1166092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f87c5fea6b9245d56975e932fc1577f') in 0.006670 seconds 
+  Import took 0.008874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/ind_blk_mainten/ind_blk_5_mainten_class_1_bc.mat
+  artifactKey: Guid(042763b6d43fcb04fbbf99524e52a5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/ind_blk_mainten/ind_blk_5_mainten_class_1_bc.mat using Guid(042763b6d43fcb04fbbf99524e52a5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a19414fdad046f3b0f09813ad46af94d') in 0.007743 seconds 
+  Import took 0.009721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/ind_blk_mainten/ind_blk_2_mainten_class_1_bc.mat
+  artifactKey: Guid(81692a403447829468aebed8ad9f6cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/ind_blk_mainten/ind_blk_2_mainten_class_1_bc.mat using Guid(81692a403447829468aebed8ad9f6cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c695158f5685160cd24f6f4ce5e34a96') in 0.006679 seconds 
+  Import took 0.008667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/ind_blk_mainten/lod_blk_6_mainten_bc.mat
+  artifactKey: Guid(bc2919997caea4b4d9dc5ae6122237d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/ind_blk_mainten/lod_blk_6_mainten_bc.mat using Guid(bc2919997caea4b4d9dc5ae6122237d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41567a2fe53f60668a8ad5243601eb15') in 0.007209 seconds 
+  Import took 0.009319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/ind_blk_mainten/ind_blk_5_mainten_class_2_bc.mat
+  artifactKey: Guid(d6be70ebeafc2964d8ddf5ec573026b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/ind_blk_mainten/ind_blk_5_mainten_class_2_bc.mat using Guid(d6be70ebeafc2964d8ddf5ec573026b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0daf37773f56c6f070b9faf41b6d3647') in 0.007692 seconds 
+  Import took 0.009915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/ind_blk_mainten/lod_blk_5_mainten_bc.mat
+  artifactKey: Guid(dfbc2158e1cc8eb4fb4d882d70f73bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/ind_blk_mainten/lod_blk_5_mainten_bc.mat using Guid(dfbc2158e1cc8eb4fb4d882d70f73bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7bed48788fdb5ac678329a538b75016') in 0.007219 seconds 
+  Import took 0.009196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/ind_blk_mainten/lod_blk_1_mainten_bc.mat
+  artifactKey: Guid(1dc5e6fdc3d79914da5b96ccfbeae1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/ind_blk_mainten/lod_blk_1_mainten_bc.mat using Guid(1dc5e6fdc3d79914da5b96ccfbeae1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a89af46f96e5c789be3d721df6e49179') in 0.007369 seconds 
+  Import took 0.009568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/ind_blk_mainten/ind_blk_1_mainten_class_1_bc.mat
+  artifactKey: Guid(f380bf23c6d3f7c47bdfa892030e07d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/ind_blk_mainten/ind_blk_1_mainten_class_1_bc.mat using Guid(f380bf23c6d3f7c47bdfa892030e07d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '102d5e8d468cec358ec06b31e3114f46') in 0.007836 seconds 
+  Import took 0.010003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/ind_blk_mainten/ind_blk_1_mainten_class_2_bc.mat
+  artifactKey: Guid(920ee4f1d3b9407478c9522142b06538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/ind_blk_mainten/ind_blk_1_mainten_class_2_bc.mat using Guid(920ee4f1d3b9407478c9522142b06538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f9b6e575595abf9df68d91a7028b14b') in 0.007063 seconds 
+  Import took 0.009134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/ind_blk_mainten/ind_blk_2_mainten_class_2_bc.mat
+  artifactKey: Guid(10e5a68dce4c8c94687fdf69c5a45e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/ind_blk_mainten/ind_blk_2_mainten_class_2_bc.mat using Guid(10e5a68dce4c8c94687fdf69c5a45e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc31717a5ebba2f57d3035d883e919f2') in 0.007665 seconds 
+  Import took 0.009670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/ind_blk_mainten/blk_winlgt_mainten_class_2_em.mat
+  artifactKey: Guid(1d0398433a846a34fb50579fa1103423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/ind_blk_mainten/blk_winlgt_mainten_class_2_em.mat using Guid(1d0398433a846a34fb50579fa1103423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf9edec8edab84602dd26cf90b15420') in 0.007355 seconds 
+  Import took 0.009302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/ind_blk_mainten/blk_winlgt_mainten_em.mat
+  artifactKey: Guid(3cd6994b5e65bdd41ac3ae51575cb72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/ind_blk_mainten/blk_winlgt_mainten_em.mat using Guid(3cd6994b5e65bdd41ac3ae51575cb72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b38d15a14081f9ee77770e2d7111686') in 0.007024 seconds 
+  Import took 0.008948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/ind_blk_mainten/ind_blk_4_mainten_class_1_bc.mat
+  artifactKey: Guid(ae43725065a05814c8c5efa9e2555762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/ind_blk_mainten/ind_blk_4_mainten_class_1_bc.mat using Guid(ae43725065a05814c8c5efa9e2555762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd177e9477679b2bdf58ccb7998052e') in 0.008315 seconds 
+  Import took 0.010416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/ind_blk_mainten/ind_blk_3_mainten_class_2_bc.mat
+  artifactKey: Guid(2c31ad175c42acb409df47127c4c8595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/ind_blk_mainten/ind_blk_3_mainten_class_2_bc.mat using Guid(2c31ad175c42acb409df47127c4c8595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99e1891dd7c0dc3658a34de98829dd74') in 0.007686 seconds 
+  Import took 0.009959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/ind_blk_mainten/ind_blk_4_mainten_class_2_bc.mat
+  artifactKey: Guid(e53bb6a56c727f14092c99fe17583703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/ind_blk_mainten/ind_blk_4_mainten_class_2_bc.mat using Guid(e53bb6a56c727f14092c99fe17583703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf48b8963e016d792aca40d2d469137') in 0.006490 seconds 
+  Import took 0.008243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/ind_blk_mainten/ind_blk_mainten_2_em.mat
+  artifactKey: Guid(03e31fa62bb67624b92cb9e9466b318c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/ind_blk_mainten/ind_blk_mainten_2_em.mat using Guid(03e31fa62bb67624b92cb9e9466b318c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1e3d5b37b868c0cb887a92786e055ad') in 0.007249 seconds 
+  Import took 0.009680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/ind_blk_mainten/lod_ind_blk_mainten_2_bc.mat
+  artifactKey: Guid(8e5199c644896c94e94114de4070b360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/ind_blk_mainten/lod_ind_blk_mainten_2_bc.mat using Guid(8e5199c644896c94e94114de4070b360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd37883f3c5de66cc209b6edc3bda1201') in 0.006761 seconds 
+  Import took 0.009076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/ind_blk_mainten/lod_blk_3_mainten_bc.mat
+  artifactKey: Guid(c14b777b5d498004eba61d96639f10e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/ind_blk_mainten/lod_blk_3_mainten_bc.mat using Guid(c14b777b5d498004eba61d96639f10e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0adc1088d1a7afe02982071e98292d7f') in 0.006750 seconds 
+  Import took 0.008851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 157.766971 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/props
+  artifactKey: Guid(cef094b9d8f591d4bbb0a46a7d45681b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/props using Guid(cef094b9d8f591d4bbb0a46a7d45681b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3833df9862772604b1aa0dc6e67b00') in 0.000813 seconds 
+  Import took 0.002606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.934375 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/props/rooftop
+  artifactKey: Guid(8662f7a7871222246aea935287359e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/props/rooftop using Guid(8662f7a7871222246aea935287359e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c193064d819db2ccdd3ccebc324c4629') in 0.000957 seconds 
+  Import took 0.003006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.453274 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/props/rooftop/rf_skylight
+  artifactKey: Guid(6f0bdd4e9bc6bc046bd5a19ec8a0d5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/props/rooftop/rf_skylight using Guid(6f0bdd4e9bc6bc046bd5a19ec8a0d5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f88703aed5e5b99fb542c47f7dbfef') in 0.001016 seconds 
+  Import took 0.002920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.088740 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/props/rooftop/rf_skylight/LOD_rf_skylight_bc.mat
+  artifactKey: Guid(c0e11bab6f543644297c10950362ee59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/props/rooftop/rf_skylight/LOD_rf_skylight_bc.mat using Guid(c0e11bab6f543644297c10950362ee59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ffb23df132478a39fbaa48b50f3eb86') in 0.007061 seconds 
+  Import took 0.009112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/props/rooftop/rf_skylight/rf_skylight_bc.mat
+  artifactKey: Guid(c7db3aa951d9db24e8b5a7a70703f65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/props/rooftop/rf_skylight/rf_skylight_bc.mat using Guid(c7db3aa951d9db24e8b5a7a70703f65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c8a67d900b8e506f6b290b62aa1678') in 0.006711 seconds 
+  Import took 0.008888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.361534 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_04_fs/build_hwr_04_fs_detals_1_class_1_bc.mat
+  artifactKey: Guid(a9da9d03b30f3274ca9f1632d599d34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_04_fs/build_hwr_04_fs_detals_1_class_1_bc.mat using Guid(a9da9d03b30f3274ca9f1632d599d34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888d7332412b302cbcb635113c9349f1') in 0.007068 seconds 
+  Import took 0.009317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_04_fs/winlight_build_hwr_04_fs_em.mat
+  artifactKey: Guid(d3528e2a3e9ef0d4082776ef3ae94865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_04_fs/winlight_build_hwr_04_fs_em.mat using Guid(d3528e2a3e9ef0d4082776ef3ae94865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e2e61fcfd0aaa5f3874196cd9000ddc') in 0.007179 seconds 
+  Import took 0.009081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_04_fs/build_hwr_04_fs_showcase_class_1_bc.mat
+  artifactKey: Guid(f24bd5ece1d059748b984813784a24c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_04_fs/build_hwr_04_fs_showcase_class_1_bc.mat using Guid(f24bd5ece1d059748b984813784a24c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1498dfb69f2015d3a37a136d68c5cd') in 0.006398 seconds 
+  Import took 0.008475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_04_fs/build_hwr_04_fs_facade_class_1_bc.mat
+  artifactKey: Guid(fcd4e4a0086397e40a30b96da86977eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_04_fs/build_hwr_04_fs_facade_class_1_bc.mat using Guid(fcd4e4a0086397e40a30b96da86977eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd998eb20bd0fca840855362d71c71466') in 0.006556 seconds 
+  Import took 0.008545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_04_fs/lod_df_ind_build_hwr_04_fs_bc.mat
+  artifactKey: Guid(e6b8a49b799810540b3b60d268c30c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_04_fs/lod_df_ind_build_hwr_04_fs_bc.mat using Guid(e6b8a49b799810540b3b60d268c30c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6daed581d0dc422440143804520235a') in 0.007425 seconds 
+  Import took 0.009454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.402025 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_02_sp/build_hwr_02_sp_detals_1_class_1_bc.mat
+  artifactKey: Guid(9dd27c8003f268d49955e705e2110ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_02_sp/build_hwr_02_sp_detals_1_class_1_bc.mat using Guid(9dd27c8003f268d49955e705e2110ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a4dd9a5136954bffcfc24499011505') in 0.007658 seconds 
+  Import took 0.009935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_02_sp/lod_build_hwr_02_sp_bc.mat
+  artifactKey: Guid(b98418351be5c654a9e03d51eb23d607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_02_sp/lod_build_hwr_02_sp_bc.mat using Guid(b98418351be5c654a9e03d51eb23d607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c45fa014bfa7ad00ff14856a3a5e200c') in 0.009513 seconds 
+  Import took 0.011903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_02_sp/build_hwr_facade_class_1_bc.mat
+  artifactKey: Guid(c4cd52c5dd7818444aa3ec12c0de28ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_02_sp/build_hwr_facade_class_1_bc.mat using Guid(c4cd52c5dd7818444aa3ec12c0de28ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4ad08fd9d9210b395bd616e190f7ea') in 0.008634 seconds 
+  Import took 0.011294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_02_sp/build_hwr_02_sp_detals_2_class_1_bc.mat
+  artifactKey: Guid(2243bc282c5f86f49a20ed69c4641ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_02_sp/build_hwr_02_sp_detals_2_class_1_bc.mat using Guid(2243bc282c5f86f49a20ed69c4641ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e682cf83395b1534c6eaa0adc255534') in 0.006712 seconds 
+  Import took 0.008864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_02_sp/build_hwr_rooftop_class_1_bc.mat
+  artifactKey: Guid(a290a46ddc7f7a84994dc989564630f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_02_sp/build_hwr_rooftop_class_1_bc.mat using Guid(a290a46ddc7f7a84994dc989564630f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab89e265ba9076c00204ea721540844') in 0.006807 seconds 
+  Import took 0.009220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_02_sp/winlight_build_hwr_02_sp_em.mat
+  artifactKey: Guid(b095fb2066849b34c931b2c2f5d33d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/hwr_street/df_ind_build_hwr_02_sp/winlight_build_hwr_02_sp_em.mat using Guid(b095fb2066849b34c931b2c2f5d33d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e84fc3fca4064d006b0293228e4b7df2') in 0.007174 seconds 
+  Import took 0.009530 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001470 seconds.
+Registered in 0.003761 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.866 seconds
+- Completed reload, in  0.885 seconds
 Domain Reload Profiling:
-	ReloadAssembly (866ms)
-		BeginReloadAssembly (101ms)
+	ReloadAssembly (885ms)
+		BeginReloadAssembly (103ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (711ms)
-			LoadAssemblies (60ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (728ms)
+			LoadAssemblies (61ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (266ms)
+			SetupTypeCache (282ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (38ms)
 			SetupLoadedEditorAssemblies (249ms)
@@ -250,20 +802,20 @@ Domain Reload Profiling:
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (71ms)
 				ProcessInitializeOnLoadAttributes (165ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1500 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.6 MB.
-System memory in use after: 180.7 MB.
+Unloading 1507 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.3 MB.
+System memory in use after: 193.9 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1999.
-Total: 2.010057 ms (FindLiveObjects: 0.098892 ms CreateObjectMapping: 0.036695 ms MarkObjects: 1.863859 ms  DeleteObjects: 0.010020 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2153.
+Total: 2.800904 ms (FindLiveObjects: 0.114926 ms CreateObjectMapping: 0.040384 ms MarkObjects: 1.873767 ms  DeleteObjects: 0.771197 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -275,3 +827,4 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
