@@ -3,12 +3,32 @@ guid: 0dafe2f2dd8bc448fa24952c66dce458
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: color_-1023419110
+    second: {fileID: 2100000, guid: cf0c8a78410e24461b52312fbde0ba5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: color_-1024910035
+    second: {fileID: 2100000, guid: 6c3807f8db7f24706bd4160ed2720414, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: color_16448250
+    second: {fileID: 2100000, guid: 068a22db3359140ce836d1f2465232f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: color_2829873
+    second: {fileID: 2100000, guid: 886bcfb59fd6e47afb0a1ede6193617c, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
