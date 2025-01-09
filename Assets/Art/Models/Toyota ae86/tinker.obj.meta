@@ -24,11 +24,31 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: color_2829873
     second: {fileID: 2100000, guid: 886bcfb59fd6e47afb0a1ede6193617c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group_0_-1023419110Mat
+    second: {fileID: 2100000, guid: 17737f7d1c3424a6485f953049fa5fe6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group_0_-1024910035Mat
+    second: {fileID: 2100000, guid: a208cc94aa135464cb33826c3c871f44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group_0_16448250Mat
+    second: {fileID: 2100000, guid: d07f4c543b15b44bd988aecec600a674, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group_0_2829873Mat
+    second: {fileID: 2100000, guid: 75c4892333ef74632ae5ebc0ba0cc22f, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 0
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
