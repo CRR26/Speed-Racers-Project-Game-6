@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: Scene
   m_RootView: {fileID: 3}
-  m_MinSize: {x: 875, y: 763}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 0
 --- !u!114 &2
@@ -69,7 +69,7 @@ MonoBehaviour:
     y: 0
     width: 1578
     height: 1301
-  m_MinSize: {x: 875, y: 763}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 713}
   m_MaxSize: {x: 14002, y: 18063}
   vertical: 0
-  controlID: 81
+  controlID: 145
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 713}
   m_MaxSize: {x: 10001, y: 18063}
   vertical: 1
-  controlID: 82
+  controlID: 146
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -195,7 +195,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 442}
   m_MaxSize: {x: 8003, y: 8042}
   vertical: 0
-  controlID: 83
+  controlID: 147
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -246,7 +246,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 84
+  controlID: 40
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -469,10 +469,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
+      scrollPos: {x: 0, y: 32}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 70fbffff
+      m_ExpandedIDs: 9664ffff206dfffff879ffff7aa8ffff8cd9ffff2ee1ffff58e1ffff54fbffff72fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -532,9 +532,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 10.4476185, y: 2.6073701, z: 0.08430009}
+    m_Target: {x: 10.843236, y: 49.75277, z: 3.3116603}
     speed: 2
-    m_Value: {x: 10.4476185, y: 2.6073701, z: 0.08430009}
+    m_Value: {x: 10.843236, y: 49.75277, z: 3.3116603}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -581,9 +581,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.1353675, y: 0.6866446, z: -0.13240722, w: -0.70197886}
+    m_Target: {x: 0.51176673, y: 0.057051014, z: -0.034145076, w: 0.8566847}
     speed: 2
-    m_Value: {x: -0.13535997, y: 0.68660647, z: -0.13239986, w: -0.7019399}
+    m_Value: {x: 0.51318717, y: 0.051857136, z: -0.031148091, w: 0.8561422}
   m_Size:
     m_Target: 0.8660254
     speed: 2
@@ -593,8 +593,8 @@ MonoBehaviour:
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 2
-    m_SpeedNormalized: 1
+    m_Speed: 1.9980009
+    m_SpeedNormalized: 0.99899995
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -675,22 +675,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/POLYGON city pack/Prefabs/Floor
+    - Assets/POLYGON city pack/Prefabs/Lamps
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/POLYGON city pack/Prefabs/Floor
+  - Assets/POLYGON city pack/Prefabs/Lamps
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/game556/Documents/GitHub/Speed-Racers-Project-Game-6
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 423e0000
-    m_LastClickedID: 15938
-    m_ExpandedIDs: 00000000183e00001a3e00001c3e00001e3e0000203e00003a3e0000443e000000ca9a3b
+    m_SelectedIDs: 363e0000
+    m_LastClickedID: 15926
+    m_ExpandedIDs: 000000000e3e0000103e0000123e0000143e0000163e0000243e00002e3e0000303e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -718,7 +718,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000183e00001a3e00001c3e00001e3e0000203e0000
+    m_ExpandedIDs: 000000000e3e0000103e0000123e0000143e0000163e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

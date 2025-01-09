@@ -1491,3 +1491,4 @@ Received Import Request.
 Start importing Assets/POLYGON city pack/Materials/Colors_buildings/F3.mat using Guid(2d6209e982156604ea6d7c513bc7b774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f9d47fd0f8036c3ed6477e0a72f437') in 0.006010 seconds 
   Import took 0.008735 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
