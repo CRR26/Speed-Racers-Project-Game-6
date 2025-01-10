@@ -445,6 +445,11 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114640528644854084, guid: c696fb0ff23c67d46885a67b29165225,
+        type: 3}
+      propertyPath: MaxTiltOnSpeed
+      value: 70
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c696fb0ff23c67d46885a67b29165225, type: 3}
 --- !u!1001 &1084429284
