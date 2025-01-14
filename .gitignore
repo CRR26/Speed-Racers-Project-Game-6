@@ -1,2 +1,4 @@
 
 *.dwlt
+Library/SourceAssetDB
+*.meta

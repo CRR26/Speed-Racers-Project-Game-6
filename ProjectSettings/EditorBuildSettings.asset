@@ -6,12 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Practice Mode.unity
+    guid: 9789e29865be3414080f478abfc4aa71
+  - enabled: 1
     path: Assets/Scenes/Menu Screen.unity
     guid: 3a3909fb0039d44f6bb4899c8e308d5b
+  - enabled: 1
+    path: Assets/Scenes/Pause Buttom.unity
+    guid: f245e81894ba843a1a0f9f33ebdaa7c1
   - enabled: 1
     path: Assets/Scenes/Play- Modes.unity
     guid: a72be52e9b6ee4e9ea8ed955a5e07d77
   - enabled: 1
-    path: Assets/Scenes/Pause Buttom.unity
-    guid: f0d371e29024f4b9e9698a9c8d08b873
+    path: Assets/Scenes/Settings.unity
+    guid: 455ed48e2b2e740388e72e49abc43266
   m_configObjects: {}
