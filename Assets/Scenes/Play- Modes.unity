@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 174127885}
   - component: {fileID: 174127884}
   m_Layer: 5
-  m_Name: Tutorial Mode Buttom
+  m_Name: Practice Mode Buttom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -206,16 +206,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 1079510721}
+        m_TargetAssemblyTypeName: MainMenuControl, Assembly-CSharp
+        m_MethodName: NextScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Practice Mode
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &174127885
@@ -316,7 +316,8 @@ MonoBehaviour:
   m_text: 'Go Back '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 49137201c418e4ad4a3c9ce5194b7ca2, type: 2}
-  m_sharedMaterial: {fileID: 1819882866695250821, guid: 49137201c418e4ad4a3c9ce5194b7ca2, type: 2}
+  m_sharedMaterial: {fileID: 1819882866695250821, guid: 49137201c418e4ad4a3c9ce5194b7ca2,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -800,7 +801,8 @@ MonoBehaviour:
   m_text: Start
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 49137201c418e4ad4a3c9ce5194b7ca2, type: 2}
-  m_sharedMaterial: {fileID: 1819882866695250821, guid: 49137201c418e4ad4a3c9ce5194b7ca2, type: 2}
+  m_sharedMaterial: {fileID: 1819882866695250821, guid: 49137201c418e4ad4a3c9ce5194b7ca2,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -883,6 +885,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1079510720}
+  - component: {fileID: 1079510721}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -904,6 +907,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1079510721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079510719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35ebb31f2b0654f54a184828d3fb1b5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1081301490
 GameObject:
   m_ObjectHideFlags: 0
@@ -1039,7 +1054,8 @@ MonoBehaviour:
   m_text: Start
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 49137201c418e4ad4a3c9ce5194b7ca2, type: 2}
-  m_sharedMaterial: {fileID: 1819882866695250821, guid: 49137201c418e4ad4a3c9ce5194b7ca2, type: 2}
+  m_sharedMaterial: {fileID: 1819882866695250821, guid: 49137201c418e4ad4a3c9ce5194b7ca2,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1173,7 +1189,8 @@ MonoBehaviour:
   m_text: Play Modes
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 49137201c418e4ad4a3c9ce5194b7ca2, type: 2}
-  m_sharedMaterial: {fileID: 1819882866695250821, guid: 49137201c418e4ad4a3c9ce5194b7ca2, type: 2}
+  m_sharedMaterial: {fileID: 1819882866695250821, guid: 49137201c418e4ad4a3c9ce5194b7ca2,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1523,7 +1540,8 @@ MonoBehaviour:
   m_text: Timer Race Mode
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 49137201c418e4ad4a3c9ce5194b7ca2, type: 2}
-  m_sharedMaterial: {fileID: 1819882866695250821, guid: 49137201c418e4ad4a3c9ce5194b7ca2, type: 2}
+  m_sharedMaterial: {fileID: 1819882866695250821, guid: 49137201c418e4ad4a3c9ce5194b7ca2,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1657,7 +1675,8 @@ MonoBehaviour:
   m_text: Start
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 49137201c418e4ad4a3c9ce5194b7ca2, type: 2}
-  m_sharedMaterial: {fileID: 1819882866695250821, guid: 49137201c418e4ad4a3c9ce5194b7ca2, type: 2}
+  m_sharedMaterial: {fileID: 1819882866695250821, guid: 49137201c418e4ad4a3c9ce5194b7ca2,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1876,7 +1895,7 @@ GameObject:
   - component: {fileID: 1800668383}
   - component: {fileID: 1800668382}
   m_Layer: 5
-  m_Name: Tutorial TMP
+  m_Name: Practice Mode TMP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1898,7 +1917,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -64, y: -156.27}
+  m_AnchoredPosition: {x: -63.07, y: -156.27}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1800668382
@@ -1921,10 +1940,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Tutorial Mode
+  m_text: Practice Mode
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 49137201c418e4ad4a3c9ce5194b7ca2, type: 2}
-  m_sharedMaterial: {fileID: 1819882866695250821, guid: 49137201c418e4ad4a3c9ce5194b7ca2, type: 2}
+  m_sharedMaterial: {fileID: 1819882866695250821, guid: 49137201c418e4ad4a3c9ce5194b7ca2,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2058,7 +2078,8 @@ MonoBehaviour:
   m_text: Open WorLd Mode
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 49137201c418e4ad4a3c9ce5194b7ca2, type: 2}
-  m_sharedMaterial: {fileID: 1819882866695250821, guid: 49137201c418e4ad4a3c9ce5194b7ca2, type: 2}
+  m_sharedMaterial: {fileID: 1819882866695250821, guid: 49137201c418e4ad4a3c9ce5194b7ca2,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

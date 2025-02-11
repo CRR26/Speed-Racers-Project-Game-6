@@ -267,7 +267,8 @@ MonoBehaviour:
   m_text: Speed Racers
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 49137201c418e4ad4a3c9ce5194b7ca2, type: 2}
-  m_sharedMaterial: {fileID: 1819882866695250821, guid: 49137201c418e4ad4a3c9ce5194b7ca2, type: 2}
+  m_sharedMaterial: {fileID: 1819882866695250821, guid: 49137201c418e4ad4a3c9ce5194b7ca2,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -739,7 +740,8 @@ MonoBehaviour:
   m_text: Speed Is The Only Way To Win
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 21365e9818651440e99c12717df7a7a5, type: 2}
-  m_sharedMaterial: {fileID: -2903247628751616198, guid: 21365e9818651440e99c12717df7a7a5, type: 2}
+  m_sharedMaterial: {fileID: -2903247628751616198, guid: 21365e9818651440e99c12717df7a7a5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1006,7 +1008,8 @@ MonoBehaviour:
   m_text: Quit
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 49137201c418e4ad4a3c9ce5194b7ca2, type: 2}
-  m_sharedMaterial: {fileID: 1819882866695250821, guid: 49137201c418e4ad4a3c9ce5194b7ca2, type: 2}
+  m_sharedMaterial: {fileID: 1819882866695250821, guid: 49137201c418e4ad4a3c9ce5194b7ca2,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1206,7 +1209,8 @@ MonoBehaviour:
   m_text: Settings
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 49137201c418e4ad4a3c9ce5194b7ca2, type: 2}
-  m_sharedMaterial: {fileID: 1819882866695250821, guid: 49137201c418e4ad4a3c9ce5194b7ca2, type: 2}
+  m_sharedMaterial: {fileID: 1819882866695250821, guid: 49137201c418e4ad4a3c9ce5194b7ca2,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1363,13 +1367,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2035014027}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 2035014029}
+        m_TargetAssemblyTypeName: MainMenuControl, Assembly-CSharp
+        m_MethodName: ExitGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1578,7 +1582,8 @@ MonoBehaviour:
   m_text: Play
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 49137201c418e4ad4a3c9ce5194b7ca2, type: 2}
-  m_sharedMaterial: {fileID: 1819882866695250821, guid: 49137201c418e4ad4a3c9ce5194b7ca2, type: 2}
+  m_sharedMaterial: {fileID: 1819882866695250821, guid: 49137201c418e4ad4a3c9ce5194b7ca2,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1883,7 +1888,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2821495771953195300, guid: 0dafe2f2dd8bc448fa24952c66dce458, type: 3}
+  - {fileID: 2100000, guid: 17737f7d1c3424a6485f953049fa5fe6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1941,7 +1946,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2888448572583562486, guid: 0dafe2f2dd8bc448fa24952c66dce458, type: 3}
+  - {fileID: 2100000, guid: a208cc94aa135464cb33826c3c871f44, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1982,7 +1987,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2069869388885810171, guid: 0dafe2f2dd8bc448fa24952c66dce458, type: 3}
+  - {fileID: 2100000, guid: 75c4892333ef74632ae5ebc0ba0cc22f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2049,7 +2054,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -6058500339262825314, guid: 0dafe2f2dd8bc448fa24952c66dce458, type: 3}
+  - {fileID: 2100000, guid: d07f4c543b15b44bd988aecec600a674, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
