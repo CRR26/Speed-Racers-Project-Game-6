@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Settings.unity
     guid: 455ed48e2b2e740388e72e49abc43266
+  - enabled: 1
+    path: Assets/Scenes/Henrry Scene.unity
+    guid: a629d303da52a4ac0817e7756c6b55ec
   m_configObjects: {}
