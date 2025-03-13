@@ -4,15 +4,23 @@ using UnityEngine;
 
 public class PauseSystem : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    private bool isPaused = false;
 
-    // Update is called once per frame
-    void Update()
+    // This function is called when the Pause Button is clicked
+    public void TogglePause()
     {
-        
+        if (isPaused)
+        {
+            // Resume the game
+            Time.timeScale = 1f; // Resume the game
+        }
+        else
+        {
+            // Pause the game
+            Time.timeScale = 0f; // Pause the game
+        }
+
+        // Toggle the isPaused state
+        isPaused = !isPaused;
     }
 }
