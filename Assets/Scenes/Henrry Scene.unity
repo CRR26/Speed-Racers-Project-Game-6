@@ -8671,7 +8671,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   carTransform: {fileID: 913469103}
-  offset: {x: 0, y: -5, z: -10}
+  offset: {x: 0, y: 0, z: 0}
   smoothSpeed: 0.125
 --- !u!81 &951556508
 AudioListener:
@@ -8731,13 +8731,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 951556506}
-  m_LocalRotation: {x: -0, y: 0.9995464, z: -0, w: 0.03011772}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 6.5, y: 0, z: 40.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 301
-  m_LocalEulerAnglesHint: {x: 0, y: 176.548, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &962440270
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19086,7 +19086,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &2130475511
 AudioListener:
   m_ObjectHideFlags: 0
