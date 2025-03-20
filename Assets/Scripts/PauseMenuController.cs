@@ -25,9 +25,10 @@ public class PauseMenuController : MonoBehaviour
     // Pauses the game and shows the pause menu
     private void PauseGame()
     {
-        Time.timeScale = 0f; // Stop game time (pause)
         isPaused = true;
         pauseMenu.SetActive(true); // Show the pause menu
+        Time.timeScale = 0f; // Stop game time (pause)
+        
     }
 
     // Resumes the game and hides the pause menu
