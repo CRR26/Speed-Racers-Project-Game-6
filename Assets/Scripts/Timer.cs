@@ -42,8 +42,8 @@ public class Timer : MonoBehaviour
     void UpdateTimerDisplay()
     {
         // Display the timer in minutes:seconds format
-        float minutes = Mathf.Floor(timeRemaining / 60);
-        float seconds = timeRemaining % 60;
+        float minutes = Mathf.Floor(timeRemaining / 90);
+        float seconds = timeRemaining % 90;
         timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
     }
 
