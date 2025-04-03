@@ -555,12 +555,12 @@ PrefabInstance:
     - target: {fileID: 114274180005872914, guid: c3561634431fb8f40830bd4c3b642798,
         type: 3}
       propertyPath: AngleVelocityMultiplayer
-      value: 0.5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114274180005872914, guid: c3561634431fb8f40830bd4c3b642798,
         type: 3}
       propertyPath: RearAngleVelocityMultiplayer
-      value: 0.5
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3561634431fb8f40830bd4c3b642798, type: 3}
@@ -2972,7 +2972,7 @@ PrefabInstance:
     - target: {fileID: 8671914902214463846, guid: 80f5b76b30e762441a5033b486c5db19,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -20.000122
+      value: -20
       objectReference: {fileID: 0}
     - target: {fileID: 8671914902214463846, guid: 80f5b76b30e762441a5033b486c5db19,
         type: 3}
