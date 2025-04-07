@@ -1248,7 +1248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91cbbb746a728455ea290a00e72fab20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeRemaining: 90
+  timeRemaining: 120
   timerText: {fileID: 976315788}
   raceOverUI: {fileID: 470965772}
   player: {fileID: 251060699}
