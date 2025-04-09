@@ -17,7 +17,11 @@ public class Timer : MonoBehaviour
     {
       raceOverUI.SetActive(false);   
     }
-
+    void OnEnable()
+    {
+        // Check if the game is paused and unpause it when returning to the scene
+        Time.timeScale = 1;
+    }
     // Update is called once per frame
     void Update()
     {
@@ -29,6 +33,8 @@ public class Timer : MonoBehaviour
             // If the time is up, stop the timer
             if (timeRemaining <= 0)
             {
+                EndRace();
+                Time.timeScale = 0f;
                 timeRemaining = 0;
                 timerRunning = false; // Timer stops when time is 0
                 // You can add additional logic to trigger events like game over or race end
