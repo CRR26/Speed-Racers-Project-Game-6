@@ -941,7 +941,7 @@ GameObject:
   - component: {fileID: 819319197}
   - component: {fileID: 819319196}
   m_Layer: 5
-  m_Name: PauseMenuPanel
+  m_Name: OverPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1252,7 +1252,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91cbbb746a728455ea290a00e72fab20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeRemaining: 10
+  timeRemaining: 100
   timerText: {fileID: 976315788}
   raceOverUI: {fileID: 470965772}
   player: {fileID: 251060699}
