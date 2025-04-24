@@ -5,25 +5,25 @@ using UnityEngine;
 public class ShowHideMobileUI : MonoBehaviour
 {
 
-    [SerializeField] GameObject PcConcoleUI;
+    // [SerializeField] GameObject PcConcoleUI;
 
-    public static bool IsMobilePlatform
-    {
-        get
-        {
-#if UNITY_EDITOR
+    // public static bool IsMobilePlatform
+    // {
+    //     //         get
+    //     //         {
+    //     // #if UNITY_EDITOR
 
-            return UnityEditor.EditorUserBuildSettings.activeBuildTarget == UnityEditor.BuildTarget.Android ||
-                UnityEditor.EditorUserBuildSettings.activeBuildTarget == UnityEditor.BuildTarget.iOS;
-#else
+    //     //             return UnityEditor.EditorUserBuildSettings.activeBuildTarget == UnityEditor.BuildTarget.Android ||
+    //     //                 UnityEditor.EditorUserBuildSettings.activeBuildTarget == UnityEditor.BuildTarget.iOS;
+    //     // #else
 
-#endif
-        }
-    }
+    //     // #endif
+    //     //         }
+    // }
 
-    void Start()
-    {
+    // void Start()
+    // {
         
-        PcConcoleUI.SetActive (!IsMobilePlatform);
-    }
+    //     PcConcoleUI.SetActive (!IsMobilePlatform);
+    // }
 }
