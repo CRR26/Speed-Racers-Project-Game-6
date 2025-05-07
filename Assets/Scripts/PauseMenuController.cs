@@ -6,6 +6,11 @@ using UnityEngine.UI; // For Button control
 
 public class PauseMenuController : MonoBehaviour
 {
+    void OnEnable()
+    {
+        // Check if the game is paused and unpause it when returning to the scene
+        Time.timeScale = 1;
+    }
    public GameObject pauseMenu; // Reference to the pause menu panel
     private bool isPaused = false;
 

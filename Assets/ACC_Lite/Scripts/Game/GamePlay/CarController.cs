@@ -516,4 +516,7 @@ public class CarConfig
 	public float MaxAngularVelocityHelpAngle;               //The angle at which the assistant works 100%.
 	public float AngularVelucityInMaxAngle;                 //Min angular velucity, reached at max drift angles.
 	public float AngularVelucityInMinAngle;                 //Max angular velucity, reached at min drift angles.
+
+
+	
 }
